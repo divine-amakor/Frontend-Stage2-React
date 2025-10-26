@@ -5,6 +5,7 @@ A robust ticket management web application built with React, featuring a complet
 ## 🚀 Features
 
 ### Core Functionality
+
 - **Landing Page**: Hero section with wavy SVG background, decorative circles, and call-to-action buttons
 - **Authentication**: Login and Signup with form validation and session management
 - **Dashboard**: Statistics overview with ticket counts and quick actions
@@ -12,6 +13,7 @@ A robust ticket management web application built with React, featuring a complet
 - **Responsive Design**: Mobile-first approach with max-width 1440px container
 
 ### Technical Features
+
 - **Form Validation**: Real-time validation with inline error messages
 - **Toast Notifications**: Success and error feedback system
 - **Protected Routes**: Authentication-based route protection
@@ -28,16 +30,19 @@ A robust ticket management web application built with React, featuring a complet
 ## 📦 Installation & Setup
 
 1. **Clone or navigate to the project directory**
+
    ```bash
    cd "Frontend Stage2 React"
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm start
    ```
@@ -48,10 +53,12 @@ A robust ticket management web application built with React, featuring a complet
 ## 🔐 Authentication
 
 ### Test Credentials
+
 - **Email**: admin@ticketflow.com
 - **Password**: admin123
 
 ### Session Management
+
 - Sessions are stored in localStorage with key: `ticketapp_session`
 - Automatic redirect to login for unauthorized access
 - Logout clears session and redirects to landing page
@@ -59,12 +66,14 @@ A robust ticket management web application built with React, featuring a complet
 ## 🎨 Design System
 
 ### Layout Rules
+
 - **Max Width**: 1440px centered container on large screens
 - **Hero Section**: Wavy SVG background with decorative circles
 - **Card Design**: Rounded corners with shadows for content sections
 - **Responsive**: Mobile-first with tablet and desktop breakpoints
 
 ### Color Scheme
+
 - **Open Status**: Green tones (#dcfce7, #166534)
 - **In Progress**: Amber tones (#fef3c7, #92400e)
 - **Closed Status**: Gray tones (#f3f4f6, #374151)
@@ -80,12 +89,14 @@ A robust ticket management web application built with React, featuring a complet
 ## 🎯 Validation Rules
 
 ### Ticket Fields
+
 - **Title**: Required, max 100 characters
 - **Status**: Required, must be one of: "open", "in_progress", "closed"
 - **Description**: Optional, max 500 characters
 - **Priority**: Optional, one of: "low", "medium", "high", "urgent"
 
 ### Authentication
+
 - **Email**: Required, valid email format
 - **Password**: Required, minimum 6 characters
 - **Name**: Required for signup
@@ -126,8 +137,9 @@ src/
 ## 🚦 Available Scripts
 
 - `npm start` - Start development server
-- `npm build` - Build for production
+- `npm run build` - Build for production
 - `npm test` - Run test suite
+- `npm run deploy` - Deploy to GitHub Pages
 - `npm eject` - Eject from Create React App
 
 ## ♿ Accessibility Features
