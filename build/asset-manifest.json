@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Frontend-Stage2-React/static/css/main.1a5cbc63.css",
+    "main.js": "/Frontend-Stage2-React/static/js/main.2d611cc8.js",
+    "index.html": "/Frontend-Stage2-React/index.html",
+    "main.1a5cbc63.css.map": "/Frontend-Stage2-React/static/css/main.1a5cbc63.css.map",
+    "main.2d611cc8.js.map": "/Frontend-Stage2-React/static/js/main.2d611cc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a5cbc63.css",
+    "static/js/main.2d611cc8.js"
+  ]
+}
